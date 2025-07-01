@@ -39,10 +39,10 @@ Follow these steps to get Stockly up and running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/stockly.git](https://github.com/your-username/stockly.git)
+    git clone [https://github.com/imkisi/Stockly-PHP-Crud.git](https://github.com/imkisi/Stockly-PHP-Crud.git)
     cd stockly
     ```
-    (Replace `kisi` with your actual GitHub username and `stockly` with your repository name if different.)
+    (Replace `imkisi` with your actual GitHub username and `Stockly-PHP-Crud` with your repository name if different.)
 
 2.  **Database Setup:**
     * Create a new SQL database (e.g., `stockly_db`).
@@ -57,7 +57,7 @@ Follow these steps to get Stockly up and running on your local machine.
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
         ```
-    * Update the database connection details in `config.php` (or similar file) to match your database credentials.
+    * Update the database connection details in `connection.php` (or similar file) to match your database credentials.
 
 3.  **Configure PHP:**
     * Ensure your web server is configured to serve the `stockly` directory.
